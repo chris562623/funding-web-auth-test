@@ -6,21 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>authtezt</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./signin-up.css">
+    <!-- <link rel="stylesheet" href="./signin-up.css"> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <div class="container">
         <div class="slider-l">
             <img src="./imgs/img-1.jpg" alt="image1" class="slider-img">
-            
+            <div class="txt-container">
+                <div class="img-txt">Alone we can do so little Together we can do so much</div>
+            </div>
         </div>
         <div class="img-l">
             <img src="./imgs/img-3.jpg" alt="image2" class="imgl-img">
-            <div class="img-text">
-                <h2>Welcome Back!</h2>
-                <p>To keep connected with us please login with your personal info</p>
+            <div class="txt-container">
+                <div class="img-txt">Happiest people are not those getting more, but those giving more</div>
             </div>
         </div>
         <div class="panel left">
@@ -29,20 +33,20 @@
                     <h1>Sign Up</h1>
                     <form>
                         <div class="input-group op-l">
-                            <input id="name" type="text" name="name" required placeholder=" ">
+                            <input id="sign-up-name" type="text" name="name" required placeholder=" ">
                             <label for="name">Full Name</label>
                         </div>
                         <div class="input-group op-l">
-                            <input id="email" type="email" name="email" required placeholder=" ">
+                            <input id="sign-up-email" type="email" name="email" required placeholder=" ">
                             <label for="email">Email</label>
                         </div>
                         <div class="input-group op-l">
-                            <input id="password" type="password" name="password" required placeholder=" ">
+                            <input id="sign-up-password" type="password" name="password" required placeholder=" ">
                             <label for="password">Password</label>
-                            <i class="fas fa-eye toggle-password" data-target="password"></i>
+                            <i class="fas fa-eye toggle-password" data-target="sign-up-password"></i>
                         </div>
                         <button type="submit" class="btn op-l">Create Account</button>
-                        <p class="switch op-l">Already have an account? <a href="login.html">Login</a></p>
+                        <p class="switch op-l">Already have an account? <a href="#">Login</a></p>
                     </form>
                 </div>
             </div>
@@ -62,7 +66,7 @@
                             <i class="fas fa-eye toggle-password" data-target="password"></i>
                         </div>
                         <button type="submit" class="btn">Login</button>
-                        <p class="switch">Don't have an account? <a href="signup.html">Sign Up</a></p>
+                        <p class="switch">Don't have an account? <a href="#">Sign Up</a></p>
                     </form>
                 </div>
             </div>
